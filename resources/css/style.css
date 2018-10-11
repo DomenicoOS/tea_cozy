@@ -96,5 +96,44 @@ h4 {
 .tea p {
   margin-top: 10px;
   font-weight: bold;
+}
 
+.div_locations {
+  height: 570px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+}
+
+.locations_flexbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locations {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0px 20px;
+}
+
+#title_locations h2 {
+  margin-top: 80px;
+}
+
+.locations p {
+  margin: 37px 0px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact h5 {
+  margin-top: 35px;
+}
+
+.contact p {
+  font-weight: bold;
+  font-size: 18px;
 }
